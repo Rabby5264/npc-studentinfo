@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\result;
 
 class ResultController extends Controller
 {
@@ -35,7 +36,8 @@ class ResultController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return ($id);
+        // return ('test');
     }
 
     /**

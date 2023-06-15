@@ -11,7 +11,8 @@ class ResultextendContoller extends Controller
      */
     public function index()
     {
-        return view('admin.result.result');
+        // return ('test');
+        // return view('admin.result.result');
     }
 
     /**
@@ -35,7 +36,7 @@ class ResultextendContoller extends Controller
      */
     public function show(string $id)
     {
-        //
+        return ('test');
     }
 
     /**
